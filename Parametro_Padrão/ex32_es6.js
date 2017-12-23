@@ -3,5 +3,6 @@ function click(callback = function(){}){
     callback();
 }
 
-click();
-click(undefined);
+click();// OK
+click(undefined);// OK
+click(null);
